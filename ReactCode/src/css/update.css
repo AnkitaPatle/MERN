@@ -1,0 +1,51 @@
+.complianceExceptionLabel {
+    display: inline-block;
+    float: left;
+    min-width: 160px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}
+
+.complianceExceptionOption {    
+    min-width: 160px;
+    padding-right: 15%;    
+    
+}
+
+.complianceExceptionPanel{
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    line-height: 1.42857143;
+}
+
+.complianceExceptionHeading{
+    font-weight: bold;
+    padding-bottom: 0px;
+   
+}
+
+.complianceExceptionDetailsPanel {
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    line-height: 1.42857143;
+    overflow: auto;
+}
+
+.complianceExceptionDetailsColumn {
+    width: 50%;
+    float: left;
+}
+
+.complianceExceptionLabel {
+    display: inline-block;
+    float: left;
+    min-width: 160px;
+    padding-right: 15px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: top;
+}
