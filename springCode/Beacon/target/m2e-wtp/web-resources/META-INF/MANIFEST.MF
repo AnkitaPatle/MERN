@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Beacon
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Priya.Malunjkar
+Implementation-Vendor-Id: com.beacon
+Build-Jdk: 1.8.0_71
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Beacon
+Created-By: Maven Integration for Eclipse
+
