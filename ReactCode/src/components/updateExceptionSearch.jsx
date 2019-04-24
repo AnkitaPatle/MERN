@@ -11,13 +11,14 @@ class UpdateExceptionSearch extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-3" />
-          <div className="col-md-10 role-border">
+          <div className="col-md-12 role-border">
             <form>
 
               <div className="row">
                 <div className="col-sm-6 form-group">
                   <label htmlFor="ce" className="complianceExceptionLabel">CE#: </label> &nbsp;&nbsp;
-                  <input type="text" name="ce" id="ce" />
+                  <span>CE 11 AH</span>
+                  {/* <input type="text" name="ce" id="ce" /> */}
                 </div>
 
                 <div className="col-sm-6 form-group">
@@ -31,7 +32,7 @@ class UpdateExceptionSearch extends Component {
               <div className="row">
                 <div className="col-sm-6 form-group">
                   <label htmlFor="createdate" className="complianceExceptionLabel">Create Date: </label> &nbsp;&nbsp;
-                  <input type="text" name="createdate" id="createdate" />
+                  <span>04/19/2019</span>
                 </div>
 
                 <div className="col-sm-6 form-group">
@@ -43,7 +44,7 @@ class UpdateExceptionSearch extends Component {
               <div className="row">
                 <div className="col-sm-6 form-group">
                   <label htmlFor="createdate" className="complianceExceptionLabel">Current Owner: </label> &nbsp;&nbsp;
-                  <input type="text" name="currentowner" id="currentowner" />
+                  <span>BeaconAdmin Admin</span>
                 </div>
 
                 <div className="col-sm-6 form-group">
@@ -104,8 +105,11 @@ class UpdateExceptionSearch extends Component {
                     <option > Select Root Cause Type:</option>
                   </select>
                 </div>
-              
-              
+
+                <div className="col-sm-12 form-group">
+                  <label htmlFor="status" className="complianceExceptionLabel"> Root Cause Type: </label> &nbsp;&nbsp;
+                  <textarea className="exceptionTextArea" maxLength="10000" rows="7"></textarea>
+                </div>             
 
               <input type="submit" value="Update" className="btn btn-success" />
             </form>
